@@ -1,0 +1,6 @@
+{
+  "elm.analyseEnabled": false,
+  "elm.formatCommand": "./node_modules/.bin/elm-format",
+  "elm.compiler": "./node_modules/.bin/elm",
+  "editor.formatOnSave": true
+}
