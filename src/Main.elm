@@ -1,8 +1,10 @@
 module Main exposing (main)
 
-import Html exposing (Html, text)
+import Element
+import Html exposing (Html)
+import View exposing (view)
 
 
 main : Html msg
 main =
-    text "Hello, World!"
+    view |> Element.layout []
